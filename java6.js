@@ -118,31 +118,33 @@
 // delete person.friend
 
 
-const person = {
-    fname: "Sonu",
-    lname: "Thapa",
-    birthyear: 2004,
+// const person = {
+//     fname: "Sonu",
+//     lname: "Thapa",
+//     birthyear: 2004,
     
-    calcage: function(){  
-     return 2024- this.birthyear 
-    },
-    
-    hasdrivinglicense: function (){
-        return this.calcage()>=18 ? "driving license" : "no driving license"
-    }
+//     calcage: function(){  
+//      return 2024- this.birthyear 
+//     },
+
+//     hasdrivinglicense: function (){
+//         return this.calcage()>=18 ? "driving license" : "no driving license"
+//     }
    
+// }
+
+// console.log(`${person.fname} ${person.lname} is ${person.calcage()} years old. She has ${person.hasdrivinglicense()}`)
+
+const mark={
+    fullname: "Sonu",
+    mass:45,
+    height: 1.5,
+    BMI: function calcBMI(){
+        this.bmi=this.mass/this.height**2
+    return this.bmi
 }
 
-console.log(`${person.fname} ${person.lname} is ${person.calcage()} years old. She has ${person.hasdrivinglicense()}`)
+}
 
-// const mark={
-//     fullname: "Sonu",
-//     mass:45,
-//     height: 1.5,
-//     BMI: function calcBMI(){
-//         this.bmi=this.mass/this.height**2
-//     return this.bmi
-// }
-// }
 
-// mark.calcBMI(mark.BMI())
+mark.calcBMI(mark.BMI())

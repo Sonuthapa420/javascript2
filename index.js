@@ -95,12 +95,14 @@
 // console.log(`Bill: ${bill}, Tip: ${tip}`)
 // console.log(`Pay: ${bill+tip}`)
 
-"use strict"
-let hasdriverslicense = false
-const passtest = true
-if(passtest){
-    hasdriverslicense = false
-} 
-if(hasdriverslicense) {
-console.log("i can drive")
-}
+// "use strict"
+// let hasdriverslicense = false
+// const passtest = true
+// if(passtest){
+//     hasdriverslicense = false
+// } 
+// if(hasdriverslicense) {
+// console.log("i can drive")
+// }
+
+
